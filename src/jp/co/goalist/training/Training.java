@@ -1,11 +1,8 @@
 package jp.co.goalist.training;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-
 public class Training {
 
+<<<<<<< HEAD
 	public static void main(String[] arg) {
 		Calendar cal = Calendar.getInstance();
 		DateFormat df = new SimpleDateFormat("M月d日");
@@ -13,3 +10,6 @@ public class Training {
 		System.out.println("今日の日付は" + dateStr + "です。");
 	}
 }
+=======
+}
+>>>>>>> parent of 9132b80...  今日の日付を表示する機能を作成
